@@ -8,9 +8,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "Lint:check": "prettier --check .",
+    "Lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT"
